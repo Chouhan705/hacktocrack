@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<HTML>
+    <HEAD>
+        <TITLE>Demo</TITLE>
+        <Style>
+        h2
+        {
+            text-align : center;
+        }
+        label 
+        {
+            text-align : center;
+            border : 2px solid powderblue; 
+        }
+        p
+        {
+            font-family:'Times New Roman';
+            text-align : center;
+            border : 2px solid powderblue;
+        }    
+        div.wrapper 
+        {
+            text-align-last: center;
+            border:1px solid black;
+        }
+
+        input[type="text"] 
+        {
+             display: block;
+             margin : 0 auto;
+        }
+        .center 
+        {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        }
+        a:hover
+        {
+            color :chartreuse;
+        }
+        div.link 
+        {
+            text-align-last : center;
+        }
+        
+        </Style>
+
+    </HEAD>
+    <BODY>
+        <h2 style="color:blue;">Lets begin the  appointment booking process</h2>
+        <form action="" method="post"> 
+            <a href="https://www.youtube.com/" > 
+            <div class="link">
+            hover for fun
+            </div>
+            </a>
+            <p>Name</p>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <br>
+            <p>Email</p>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <br>
+            <p>Phone</p>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone">
+            <br>
+            <p>Date</p>
+            <input type="text" name="date" id="date" placeholder="Enter your date">
+            <br>
+            <p>Time</p>
+            <input type="text" name="time" id="time" placeholder="Enter your time">
+            <br>
+            <div class="wrapper">
+                <input type="submit" value="Submit">
+            </div> 
+        </form>
+        <a href="https://www.youtube.com/">
+        <img src="hospital.jpg" class="center">
+        </a>
+        
+
+    </BODY>
+
+</HTML>
