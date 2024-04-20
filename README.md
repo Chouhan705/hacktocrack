@@ -1,2 +1,2 @@
 # hacktocrack
-everything we prepared for hack to crack
+everything I prepared for hack to crack
